@@ -1,0 +1,48 @@
+.About {
+	text-align: center;
+}
+
+.About h1 {
+	color: var(--primary-color);
+	font-size: 64px;
+	margin: 0;
+	padding-top: 160px;
+	padding-bottom: 40px;
+}
+
+.About p {
+	color: white;
+	text-align: justify;
+	font-size: 24px;
+	margin: 0 10% 20px 10%;
+}
+
+.About a {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+.About a:hover {
+	text-decoration: underline;
+}
+
+.About span {
+	color: var(--primary-color);
+}
+
+.About button.Home {
+	background: none;
+	color: var(--primary-color);
+	border: 3px solid var(--primary-color);
+	font-size: 32px;
+	padding: 10px;
+	cursor: pointer;
+	margin: 0;
+	transition: all .1s linear;
+	outline: none;
+}
+
+.About button.Home:hover {
+	color: var(--background-color);
+	background: var(--primary-color);
+}
