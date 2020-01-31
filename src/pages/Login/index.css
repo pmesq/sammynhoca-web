@@ -1,0 +1,33 @@
+.Login {
+	text-align: center;
+}
+
+.Login h1 {
+	color: var(--secondary-color);
+	font-size: 48px;
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+.Login p {
+	color: white;
+	font-size: 24px;
+}
+
+.Login button.Back {
+	background: none;
+	color: var(--secondary-color);
+	border: 3px solid var(--secondary-color);
+	font-size: 32px;
+	padding: 10px;
+	cursor: pointer;
+	margin: 0;
+	transition: all .1s linear;
+	outline: none;
+}
+
+.Login button.Back:hover {
+	color: black;
+	background: var(--secondary-color);
+}
