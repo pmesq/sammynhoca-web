@@ -9,17 +9,27 @@ class Game extends React.Component {
 
 		super();
 
+		this.state = { blocks: [], score: 0 };
+
+	}
+
+	componentDidMount() {
+
 		this.PLAYFIELD_SIZE = 25;
 
 		GameController.start(this.PLAYFIELD_SIZE);
 		const { blocks, score } = GameController.get();
-		this.state = { blocks, score };
+		this.setState({ blocks, score });
 
 		document.addEventListener('keypress', this.handleKeyPress.bind(this));
 
 		const that = this;
-		setInterval(() => that.processTick(), 100);
 
+		this.interval = setInterval(() => that.processTick(), 100);
+	}
+
+	componentWillUnmount() {
+		clearInterval(this.interval);
 	}
 
 	handleKeyPress(event) {
