@@ -10,19 +10,24 @@
 	padding-bottom: 40px;
 }
 
-.Home button.Play {
+.Home button {
 	background: none;
 	color: var(--primary-color);
 	border: 3px solid var(--primary-color);
-	font-size: 32px;
-	padding: 10px;
+	font-size: 34px;
+	padding: 5px;
 	cursor: pointer;
-	margin: 0;
+	margin: 0 10px;
 	transition: all .1s linear;
 	outline: none;
 }
 
-.Home button.Play:hover {
+.Home button:hover {
 	color: var(--background-color);
 	background: var(--primary-color);
+}
+
+.Home button.Play {
+	font-size: 40px;
+	padding: 10px;
 }

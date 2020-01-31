@@ -10,8 +10,14 @@ class Home extends React.Component {
 				<header>
 					<h1>Sammynhoca</h1>
 				</header>
+				<Link to="/login">
+					<button className="Login">Login</button>
+				</Link>
 				<Link to="/game">
 					<button className="Play">Play</button>
+				</Link>
+				<Link to="/about">
+					<button className="About">About</button>
 				</Link>
 			</div>
 		);
