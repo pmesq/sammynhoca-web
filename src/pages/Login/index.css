@@ -3,7 +3,7 @@
 }
 
 .Login h1 {
-	color: var(--secondary-color);
+	color: var(--primary-color);
 	font-size: 48px;
 	margin: 0;
 	padding-top: 100px;
@@ -17,8 +17,8 @@
 
 .Login button.Back {
 	background: none;
-	color: var(--secondary-color);
-	border: 3px solid var(--secondary-color);
+	color: var(--primary-color);
+	border: 3px solid var(--primary-color);
 	font-size: 32px;
 	padding: 10px;
 	cursor: pointer;
@@ -28,6 +28,6 @@
 }
 
 .Login button.Back:hover {
-	color: black;
-	background: var(--secondary-color);
+	color: var(--background-color);
+	background: var(--primary-color);
 }

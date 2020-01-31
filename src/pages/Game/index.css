@@ -31,5 +31,5 @@
 
 .Game .Restart:hover {
 	background: white;
-	color: black;
+	color: var(--background-color);
 }
