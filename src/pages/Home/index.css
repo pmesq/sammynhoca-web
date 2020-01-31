@@ -1,0 +1,31 @@
+.Home {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background: var(--primary-color);
+}
+
+.Home h1 {
+	color: var(--secondary-color);
+	font-size: 64px;
+	margin: 0;
+	padding-top: 160px;
+	padding-bottom: 40px;
+}
+
+.Home button.Play {
+	background: none;
+	color: var(--secondary-color);
+	border: 3px solid var(--secondary-color);
+	font-size: 32px;
+	padding: 10px;
+	cursor: pointer;
+	margin: 0;
+	transition: all .1s linear;
+	outline: none;
+}
+
+.Home button.Play:hover {
+	color: var(--primary-color);
+	background: var(--secondary-color);
+}
