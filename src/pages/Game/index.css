@@ -1,0 +1,35 @@
+.Game {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.Game header, .Game h1 {
+	color: white;
+	margin: 0;
+}
+
+.Game .Playfield {
+	width: 600px;
+	height: 600px;
+	display: grid;
+	margin: auto;
+	border: 5px solid white;
+}
+
+.Game .Restart {
+	color: white;
+	border: 3px solid white;
+	padding: 5px;
+	background: none;
+	outline: none;
+	cursor: pointer;
+	transition: all .1s linear;
+	margin-top: 5px;
+	font-size: 24px;
+}
+
+.Game .Restart:hover {
+	background: white;
+	color: black;
+}
