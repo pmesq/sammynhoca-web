@@ -4,6 +4,8 @@
 	"description": "Sammynhoca web site",
 	"repository": "git@github.com:pcesarmf/sammynhoca-web.git",
 	"author": "pcesarmf <pedrocesar1410@gmail.com>",
+	"license": "MIT",
+	"homepage": "https://pcesarmf.github.io/sammynhoca-web",
 	"private": false,
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
