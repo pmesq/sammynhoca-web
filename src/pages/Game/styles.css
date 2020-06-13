@@ -4,17 +4,23 @@
 	text-align: center;
 }
 
-.Game header, .Game h1 {
+.Game header,
+.Game h1 {
 	color: white;
 	margin: 0;
 }
 
 .Game .Playfield {
-	width: 600px;
-	height: 600px;
+	width: 0px;
+	height: 0px;
 	display: grid;
 	margin: auto;
 	border: 5px solid white;
+}
+
+.Game .Block {
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .Game .Restart {
@@ -24,7 +30,7 @@
 	background: none;
 	outline: none;
 	cursor: pointer;
-	transition: all .1s linear;
+	transition: all 0.1s linear;
 	margin-top: 5px;
 	font-size: 24px;
 }
